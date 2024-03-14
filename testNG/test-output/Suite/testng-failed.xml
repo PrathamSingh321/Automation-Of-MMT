@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Chrome test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testNG.testNG.MakemyTrip">
+        <methods>
+          <include name="per_details" invocation-numbers="0"/>
+          <include name="FROM"/>
+          <include name="window_Swt"/>
+          <include name="otheraction"/>
+          <include name="coust_details" invocation-numbers="0"/>
+          <include name="open_MMT"/>
+          <include name="Return_Date"/>
+          <include name="Details"/>
+          <include name="departureDate_selection"/>
+        </methods>
+      </class> <!-- testNG.testNG.MakemyTrip -->
+    </classes>
+  </test> <!-- Chrome test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
